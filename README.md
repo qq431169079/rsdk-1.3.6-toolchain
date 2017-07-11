@@ -3,7 +3,7 @@ The Realtek SDK (RSDK) v1.3.6 Lexra toolchain (RTL8xxx SoC, LX5280, LXxxxx) and 
 
 ## What is this
 
-This is a toolchain provided by Realtek that is compatible with the MIPS based Lexra CPU, which doesn't implement unaligned loads and stores for patent reasons. This chip can be found in older embedded devices. The activate script is for convenience and will set up your environment to use the toolchain after copying it where you want it on your local filesystem
+This is a toolchain provided by Realtek that is compatible with the MIPS based Lexra brand CPUs, which don't implement unaligned loads and stores for patent reasons. This chip can be found in older embedded devices. The activate script is for convenience and will set up your environment to use the toolchain after copying it where you want it on your local filesystem
 
 ## Using
 
