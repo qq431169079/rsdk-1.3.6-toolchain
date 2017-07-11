@@ -25,3 +25,6 @@ $ cross_configure
 $ make -j
 ```
 
+### You probably want to statically link things
+
+```CFLAGS='-fPIC -static' CXXFLAGS='-fPIC -static``` works fine with *most* configure scripts, or you can obviously do things by hand using ```gcc -fPIC -static bah.c -o bah```
