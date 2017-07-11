@@ -35,3 +35,7 @@ Several of my projects use this to produce statically linked executables like gd
 
 * [embedded-toolkit](https://github.com/mzpqnxow/embedded-toolkit)
 * [gdb-static-cross](https://github.com/mzpqnxow/gdb-static-cross)
+
+## Caveat Emptor
+
+This is a very old uClibc-0.9.30 based toolchain using gcc-3.4.6, so you will certainly run into issues, especially with header files which predate some newer Linux system calls. It is usually trivial to get things to build, see for example the gdb-7.12 patch used in [gdb-static-cross](https://github.com/mzpqnxow/gdb-static-cross/tree/master/rsdk-1.3.6-patch)
