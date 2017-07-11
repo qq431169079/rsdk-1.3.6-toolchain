@@ -28,3 +28,10 @@ $ make -j
 ### You probably want to statically link things
 
 ```CFLAGS='-fPIC -static' CXXFLAGS='-fPIC -static``` works fine with *most* configure scripts, or you can obviously do things by hand using ```gcc -fPIC -static bah.c -o bah```
+
+## Other projects utilizing this
+
+Several of my projects use this to produce statically linked executables like gdbserver, lsof and other things useful on embedded devices
+
+* [embedded-toolkit](https://github.com/mzpqnxow/embedded-toolkit)
+* [gdb-static-cross](https://github.com/mzpqnxow/gdb-static-cross)
